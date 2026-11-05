@@ -1,0 +1,12 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+gender = input("Enter your gender (M/F): ")[0].upper()
+first_name, last_name = input("Enter your first and last name separated by a space: ").split()
+a, b = map(int, input("Enter two numbers separated by a space: ").split())
+
+print("Hello, " + name + "! Welcome to the program.")
+print(f"Hello, {name}! Welcome to the program.")
+print(f"My name is {name} and I am {age} years old.")
+print(f"My name is {name}, I am {age} years old, and my gender is {gender}.")
+print(f"My first name is {first_name} and my last name is {last_name}.")
+print(f"The sum of {a} and {b} is {a + b}.")
